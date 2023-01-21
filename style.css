@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(Menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    padding: 10px 5%;
+    background-color: DarkGrey;
+    width: 450px;
+    display: inline-block;
+}
+
+header>*{
+    display: inline-block;
+}
+
+.pustota{
+    width: 10%;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    margin: 0 10px
+}
+
+.banner{
+    margin: 20% 5%;
+    color: white;
+    font-size: 30px;
+}
+
+.post{
+    background-color: DarkGrey;
+    padding: 10px 5%;
+    text-align:center;
+}
+
+.post>*{
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+    vertical-align: middle; 
+}
+
+.razryv{
+    height: 600px;
+}
+
+.razryvs{
+    height: 200px;
+}
+
+.final{
+    background-image: url(Map.png);
+    background-attachment: fixed;
+    padding: 150px 100px;
+}
+
+footer{
+    background-color: black;
+    padding: 10px 0;
+    text-align:center;
+    color: white;
+}
